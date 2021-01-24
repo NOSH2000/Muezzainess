@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="./images/sleeping-cat.png" type="image/x-icon">
+  <title>Muezzainess</title>
+</head>
+
+<body>
+  <ul>
+    <li><a class="active" href="index.html">
+      <img src="./images/sleeping-cat.png" width="40" height="40">
+    </a></li>
+    <!-- <li><a href="#contact">Contact</a></li> -->
+  </ul>
+  <div class="container">
+    <div class="img">
+      <img src="./images/cute-cat.jpeg" id="imgClickAndChange" onclick="getRandomCat()" height='300px' ; width='450px'>
+    </div>
+
+    <div class="btt-container">
+      <div class="bttn1">
+        <button class="bttn" onclick="getCatFact();">Cat Fact</button>
+        <div id="cat-fun-facts"></div>
+      </div>
+
+      <div class="bttn2"> 
+        <button class="bttn" onclick="getAdvise();">Advise</button>
+        <div id="advise"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</html>

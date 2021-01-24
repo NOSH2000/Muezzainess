@@ -1,0 +1,87 @@
+body {
+  background-color: blanchedalmond;
+  margin: 0;
+  font-family: 'Fraunces', serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color:white; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: wheat;
+}
+
+.container {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.bttn {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+  display: inline-block;
+  overflow: auto;
+  height: 10vh;
+  width: 10vw;
+  background: Pink;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  box-shadow: 0 9px #999;
+}
+
+.bttn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btt-container {
+  padding: 2%;
+}
+
+.bttn1 {
+  padding: 5%;
+  text-align: left;
+}
+
+.bttn2 {
+  padding: 5%;
+  text-align: right;
+}
+
+#cat-fun-facts {
+  font-size: 200%;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+
+#advise {
+  font-size: 200%;
+  padding-left: 15%;
+  padding-top: 2%;
+}

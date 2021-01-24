@@ -1,0 +1,9 @@
+{
+  "name": "help",
+  "version": "1.0.0",
+  "description": "cat fact",
+  "author": "Nowshin Sayara",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
