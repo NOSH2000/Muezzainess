@@ -25,14 +25,21 @@ getAdvise = () => {
       console.log(error);
     });
 }
+// getRandomCat = () => {
+//   axios.get('https://api.thecatapi.com/v1/images/search')
+//     .then(response => {
+//       document.getElementById("imgClickAndChange").src = response.data[0].url;
+//       console.log(response.data[0].url);
+//     }).catch(error => {
+//       console.log(error);
+//     });
+// }
+
 getRandomCat = () => {
-  axios.get('https://api.thecatapi.com/v1/images/search')
-    .then(response => {
-      document.getElementById("imgClickAndChange").src = response.data[0].url;
-      console.log(response.data[0].url);
-    }).catch(error => {
-      console.log(error);
-    });
+  const cat = Math.floor((Math.random() * 5));
+  const images = ['1.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+  document.getElementById("imgClickAndChange").src = `./images/${images[cat]}`;
 }
+
 // getCatFact();
 // getAdvise();
