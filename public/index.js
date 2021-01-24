@@ -8,8 +8,6 @@ getCatFact = () => {
       const catFact = Math.floor((Math.random() * response.data.length));
       fact.innerHTML = response.data[catFact].text;
       console.log(response.data[catFact].text);
-      // console.log(response.data);
-      // console.log(catFact);
     }).catch(error => {
       console.log(error);
     });
