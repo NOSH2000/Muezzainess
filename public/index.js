@@ -34,8 +34,8 @@ getAdvise = () => {
 // }
 
 getRandomCat = () => {
-  const cat = Math.floor((Math.random() * 5));
-  const images = ['1.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+  const images = ['1.jpg', '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpeg', '6.jpeg', '7.jpeg', '8.jpeg', '9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg'];
+  const cat = Math.floor((Math.random() * images.length));
   document.getElementById("imgClickAndChange").src = `./images/${images[cat]}`;
 }
 
