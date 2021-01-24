@@ -86,3 +86,13 @@ li a:hover {
   padding-left: 15%;
   padding-top: 2%;
 }
+
+.icon {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 5em;
+}
+a:visited{
+  color: black;
+}
